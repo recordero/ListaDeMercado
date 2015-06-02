@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -15,6 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.webkit.WebView;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
@@ -42,9 +44,17 @@ public class Principal extends ActionBarActivity implements
 				.findFragmentById(R.id.navigation_drawer);
 		mTitle = getTitle();
 
+		//WebView webView;
+		//webView  = (WebView)findViewById(R.id.webView1);
+		//webView.getSettings().setJavaScriptEnabled(true);
+		//webView.loadUrl("http://m.tigo.com");
+		
 		// Set up the drawer.
 		mNavigationDrawerFragment.setUp(R.id.navigation_drawer,
 				(DrawerLayout) findViewById(R.id.drawer_layout));
+		
+		
+			    
 	}
 
 	@Override
@@ -101,7 +111,8 @@ public class Principal extends ActionBarActivity implements
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
-	}
+	}	
+
 
 	/**
 	 * A placeholder fragment containing a simple view.
