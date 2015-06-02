@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="action_example">Acción de ejemplo</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="app_name">Lista de Mercado</string>
+    <string name="navigation_drawer_close">Cerrar navegador</string>
+    <string name="navigation_drawer_open">Abrir navegador</string>
+    <string name="title_section1">Lista de Productos</string>
+    <string name="title_section2">Mis listas</string>
+    <string name="title_section3">Ajustes</string>
+    <string name="title_section4">Favoritos</string>
+    <string name="title_section5">Iniciar sessión</string>
+    <string name="title_section6">Acerca de</string>
+
+</resources>
